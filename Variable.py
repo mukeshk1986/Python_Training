@@ -1,11 +1,6 @@
-x=5
-y=15
-answer1=x+y
-print(answer1)
+def say_hello(name):
+    print("hello", name)
 
-x=46
-y=28
-answer2=x+y
-print(answer2)
-
-
+if __name__ == "__main__":
+    v_name="Mukesh"
+    say_hello(v_name)
